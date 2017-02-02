@@ -15,10 +15,12 @@ TEMPLATE = app
 SOURCES += main.cpp\
         dialog.cpp \
     controlador.cpp \
-    ethsocket.cpp
+    ethsocket.cpp \
+    kinematics.cpp
 
 HEADERS  += dialog.h \
     controlador.h \
-    ethsocket.h
+    ethsocket.h \
+    kinematics.h
 
 FORMS    += dialog.ui

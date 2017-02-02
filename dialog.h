@@ -21,15 +21,21 @@ public:
     ~Dialog();
     ethsocket *nsocket;
     controlador *ncontrolador;
+    Kinematics *nkin;
 
 private:
     Ui::Dialog *ui;
+
 public slots:
     void ServoON();
     void HomeA1();
     void HomeA2();
     void HomeA3();
     void Rutina();
+    void Funcion();
+
+    void ProcessData(int direccion, int dato);
+    void Write2PLC(int direccion, int dato);
 
 };
 

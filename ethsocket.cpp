@@ -47,6 +47,7 @@ void ethsocket::sending(int direccion, int dato)
     {
         qDebug()<< "Eth: fallo al enviar";
     }
+
 }
 
 void ethsocket::run()
@@ -61,13 +62,15 @@ void ethsocket::run()
         }
         else{
 
-            u_int16_t rindex;
-            u_int16_t rdata;
+            u_int16_t rindex = 0;
+            u_int16_t rdata = 0;
             rindex = rindex | dr/65536;
             rdata = rdata | dr;
             qDebug()<< "dir recibido: "<< rindex;
             qDebug()<< "dato recibido:  " << rdata;
+            emit ReceivedFromPLC(rindex, rdata);
         }
 
     }
 }
+

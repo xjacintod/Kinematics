@@ -11,6 +11,7 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <sys/time.h>
+#include <vector>
 
 class ethsocket : public QThread
 {
@@ -20,10 +21,10 @@ public:
     void run();
     QString connecting();
     void sending(int direccion, int dato);
-
     int socketStatus;
 
 signals:
+    void ReceivedFromPLC(int direccion, int dato);
 
 public slots:
 
