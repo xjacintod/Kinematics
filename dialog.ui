@@ -6,89 +6,102 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1104</width>
-    <height>725</height>
+    <width>671</width>
+    <height>452</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>90</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ROBOT ATECHNIK</string>
+   </property>
+  </widget>
   <widget class="QPushButton" name="pushButtonON">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>160</y>
+     <x>40</x>
+     <y>40</y>
      <width>211</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SERVO OFF</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonHomeA1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>180</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HOME AXIS 1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonHomeA2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>250</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HOME AXIS 2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonHomeA3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>320</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HOME AXIS 3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonPSegura">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>170</y>
+     <width>181</width>
      <height>101</height>
     </rect>
    </property>
    <property name="text">
-    <string>Servo OFF</string>
+    <string>Posición Origen</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButtonHA1">
+  <widget class="QPushButton" name="pushButtonRutina">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>280</y>
-     <width>211</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Home Axis 1</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButtonHA2">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>390</y>
-     <width>211</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Home Axis 2</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButtonHA3">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>500</y>
-     <width>211</width>
-     <height>91</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Home Axis 3</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButtonStart">
-   <property name="geometry">
-    <rect>
-     <x>590</x>
-     <y>150</y>
-     <width>251</width>
+     <x>380</x>
+     <y>290</y>
+     <width>181</width>
      <height>101</height>
     </rect>
    </property>
    <property name="text">
-    <string>Start Routine</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>670</x>
-     <y>360</y>
-     <width>201</width>
-     <height>111</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>PushButton</string>
+    <string>Start Rutina</string>
    </property>
   </widget>
  </widget>
